@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/info/get" method="GET">
+            <input type="submit" value="GET">
+        </form>
+
+        <form action="/info/add" method="POST" >
+            <label for="add"> ADD: </label>
+            <input type="text" name="add" id="add">
+            <label for="number"> count: </label>
+            <input type="number" name="count" id="number">
+            <label for="description"> description: </label>
+            <input type="text" name="description" id="description">
+
+            <label for="date"> date: </label>
+            <input type="date" name="date" id="date">
+           
+            <label for="upvote"> upvote: </label>
+            <input type="number" name="upvote" id="upvote">
+
+            <label for="downvote"> downvote: </label>
+            <input type="number" name="downvote" id="downvote">
+           
+        
+            <label for="comments"> comments: </label>
+            <input type="text" name="comments" id="comments">
+            <input  type="file" name="pptx" /> 
+            <input type="submit" value="ADD">
+</form>
+
+
+<form action="/single" method="POST" enctype="multipart/form-data">
+            <input type="file" name="pptx" /> 
+            <button type="submit"> perfect</button> 
+
+
+        </form>
+    
+    
+
+    <br/>
+    <br/>
+        <form action="/info/delete" method="POST">
+            <label for="delete"> delete: </label>
+            <input type="text" name="delete" id="delete">
+            <input type="submit" value="delete">
+        </form>
+
+        <br/>
+
+        <form action="/info/update" method="POST">
+            <label for="oldvalue"> oldvalue: </label>
+            <input type="text" name="oldvalue" id="oldvalue">
+           
+       
+            <label for="newValue"> new Value: </label>
+            <input type="text" name="newValue" id="newValue">
+            <input type="submit" value="update">
+
+           
+        </form>
+    
+
+    
+
+    
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/info/get" method="GET">
+            <input type="submit" value="GET">
+        </form>
+
+        <form action="/info/add" method="POST">
+            <label for="add"> ADD: </label>
+            <input type="text" name="add" id="add">
+            <input type="submit" value="ADD">
+
+
+            
+        </form>
+
+        
+        
+        <form action="/info/add" method="POST">
+            <label for="number"> number: </label>
+            <input type="numeric" name="number" id="number">
+            <input type="submit" value="ADD">
+        </form>
+
+        <form action="/info/delete" method="POST">
+            <label for="delete"> delete: </label>
+            <input type="text" name="delete" id="delete">
+            <input type="submit" value="delete">
+        </form>
+
+        <form action="/info/update" method="POST">
+            <label for="oldvalue"> oldvalue: </label>
+            <input type="text" name="oldvalue" id="oldvalue">
+           
+       
+            <label for="newValue"> new Value: </label>
+            <input type="text" name="newValue" id="newValue">
+            <input type="submit" value="update">
+        </form>
+    
+    </body>
+</html>
+-->
